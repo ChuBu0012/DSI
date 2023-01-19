@@ -6,17 +6,27 @@
 }
 
 body {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-}
+    height: 100vh;
+   display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
 
-.container {
-  width: 500px;
-  margin: 0 auto;
-}
+        background: linear-gradient(
+          90deg,
+          rgba(208, 70, 123, 1) 0%,
+          rgba(91, 131, 189, 1) 95%,
+          rgba(86, 134, 192, 1) 100%
+        );
+      }
+
+      .container {
+        width: 500px;
+        margin: 0 auto;
+        background-color: #fff;
+        padding: 16px;
+        border-radius: 16px;
+      }
 
 .Title {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
