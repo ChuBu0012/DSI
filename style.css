@@ -1,0 +1,134 @@
+:root {
+  --Darkblue: #150e56;
+  --blue: #1597bb;
+  --Lightblue: #8fd6e1;
+  --Darkred: #7b113a;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.Title {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  color: #0093e9;
+}
+
+.text-xl {
+  font-size: 56px;
+
+  background: -webkit-linear-gradient(360deg, #80d0c7 0%, #0093e9 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.inputvalue-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inputvalue {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.inputvalue h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 8px;
+  border: 3px solid;
+  border-radius: 6px;
+  border-right: none;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.inputvalue input {
+  font-size: 16px;
+  height: 36px;
+  outline: none;
+  padding: 8px;
+  border: 3px solid #000;
+  border-radius: 6px;
+  border-left: none;
+  border-right: none;
+}
+
+.inputth input {
+  border-image: linear-gradient(
+      to right,
+      rgba(21, 14, 86, 1) 0%,
+      rgba(21, 151, 187, 1) 100%
+    )
+    1;
+}
+
+.inputusd input {
+  border-image: linear-gradient(
+      to right,
+      rgba(123, 17, 58, 1) 0%,
+      rgba(208, 70, 123, 1) 100%
+    )
+    1;
+}
+
+button {
+  background: transparent;
+  padding: 18px;
+  border-bottom-left-radius: 0;
+  border: 2.4px solid;
+  border-radius: 8px;
+  border-top-left-radius: 0;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.thtousd {
+  color: var(--Darkblue);
+  font-weight: 600;
+  border-color: var(--blue);
+}
+.thtousd:hover {
+  color: white;
+  background-color: var(--blue);
+}
+
+.usdtoth {
+  color: #e0578b;
+  font-weight: 600;
+  border-color: #e0578b;
+}
+
+.usdtoth:hover {
+  background-color: #e0578b;
+  color: white;
+}
+
+.usd {
+  color: var(--Darkred);
+}
+.usd::first-letter {
+  color: var(--Darkblue);
+}
+.th {
+  color: var(--Darkblue);
+}
+
+.th::first-letter {
+  color: var(--Darkred);
+}
+
+.st {
+  color: transparent;
+  -webkit-text-stroke: 2px rgb(170, 170, 170);
+}
